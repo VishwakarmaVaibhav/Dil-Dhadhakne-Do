@@ -7,9 +7,9 @@ const WorkoutTracker = () => {
   const progress = Math.min((workouts / 6) * 100, 100);
 
   return (
-    <Link to="/workout-tracker">
+    <Link to="/activity">
       <motion.div
-        className="flex bg-white my-2  rounded-xl p-6 w-full max-w-lg transition-transform hover:scale-105"
+        className="flex items-center my-2 bg-white p-4 rounded-lg mt-6 mx-auto max-w-sm transition-transform hover:scale-105"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}

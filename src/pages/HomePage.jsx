@@ -67,7 +67,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200 pb-20 p-4">
+    <div className="min-h-screen bg-gray-200 content-center pb-24 p-4">
       <HeroSection title="Dil Dhadhakne Do" tagline="Your catchy slogan goes here!" />
 
       <DragDropContext onDragEnd={onDragEnd}>
@@ -84,7 +84,7 @@ const HomePage = () => {
                       initial={{ opacity: 0.5 }}
                       animate={{ opacity: snapshot.isDragging ? 0.8 : 1 }}
                       transition={{ duration: 0.2 }}
-                      className="bg-white rounded-lg "
+                      
                     >
                       <SafeComponent component={item.component} />
                     </motion.div>
