@@ -67,7 +67,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200 p-4">
+    <div className="min-h-screen bg-gray-200 pb-20 p-4">
       <HeroSection title="Dil Dhadhakne Do" tagline="Your catchy slogan goes here!" />
 
       <DragDropContext onDragEnd={onDragEnd}>
@@ -96,6 +96,8 @@ const HomePage = () => {
           )}
         </Droppable>
       </DragDropContext>
+
+
 
       <BottomBar />
     </div>
