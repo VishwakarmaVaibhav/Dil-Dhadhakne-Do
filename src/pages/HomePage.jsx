@@ -99,7 +99,7 @@ const HomePage = () => {
 
 
 
-      <BottomBar />
+      
     </div>
   );
 };

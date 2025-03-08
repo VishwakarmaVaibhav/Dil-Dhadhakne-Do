@@ -11,7 +11,7 @@ const ActivityTracker = () => {
           <h2 className="text-lg font-semibold mt-4">Calories Burned</h2>
           <p className="text-blue-600 font-bold">300 kcal</p>
         </div>
-        <BottomBar />
+       
       </div>
     );
   };

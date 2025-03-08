@@ -1,29 +1,28 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
       manifest: {
-        name: 'Medico Tracker',
-        short_name: 'Medico',
+        name: 'Dil Dhadhakne Do',
+        short_name: 'DDD',
         start_url: '/',
         display: 'standalone',
         background_color: '#ffffff',
-        theme_color: '#2563eb',
+        theme_color: '#000000',
+        description: 'A PWA that feels like a native app',
         icons: [
           {
-            src: '/icon-192x192.png',
+            src: 'https://logowik.com/content/uploads/images/healthy-lifestyle-for-men8484.logowik.com.webp',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/icon-512x512.png',
+            src: 'https://logowik.com/content/uploads/images/healthy-lifestyle-for-men8484.logowik.com.webp',
             sizes: '512x512',
             type: 'image/png',
           },
@@ -32,4 +31,3 @@ export default defineConfig({
     }),
   ],
 });
-

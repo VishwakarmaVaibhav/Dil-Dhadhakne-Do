@@ -90,7 +90,7 @@ const ProfilePage = () => {
           </button>
         </div>
       </div>
-      <BottomBar />
+     
     </div>
   );
 };

@@ -100,7 +100,7 @@ export default function MusicPage() {
         </button>
         <SkipForward onClick={nextSong} className="text-black" />
       </div>
-      <BottomBar />
+      
     </div>
   );
 }
