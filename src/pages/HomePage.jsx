@@ -99,7 +99,6 @@ const HomePage = () => {
 
 
 
-      
     </div>
   );
 };

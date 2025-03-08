@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import HomePage from "./pages/HomePage";
-import DietTracker from "./pages/DietTracker";
+
 import ActivityTracker from "./pages/ActivityTracker";
 import Music from "./pages/Music";
 import Profile from "./pages/Profile";
@@ -46,7 +46,7 @@ function AnimatedRoutes() {
       >
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/diet" element={<DietTracker />} />
+          
           <Route path="/activity" element={<ActivityTracker />} />
           <Route path="/music" element={<Music />} />
           <Route path="/profile" element={<Profile />} />

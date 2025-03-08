@@ -1,5 +1,8 @@
-import BottomBar from "../components/BottomBar";
+
+import DietIntake from "../components/Deitintake";
 import HeroSection from "../components/HeroSection";
+import Achievements from "../components/Achievements";
+
 const ActivityTracker = () => {
     return (
       <div className="min-h-screen bg-gray-200 p-4">
@@ -11,6 +14,14 @@ const ActivityTracker = () => {
           <h2 className="text-lg font-semibold mt-4">Calories Burned</h2>
           <p className="text-blue-600 font-bold">300 kcal</p>
         </div>
+
+        <div className="mt-4">
+          <DietIntake />
+        </div>
+        <div className="mt-4 mb-20">
+        <Achievements />
+        </div>
+        
        
       </div>
     );
